@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f5f1e8">
+  <meta name="description" content="自动记账与 Mercado Perenne Android 安装包下载中心">
+  <title>App 发布中心</title>
+  <style>
+    :root{color-scheme:light;--paper:#f5f1e8;--ink:#17221c;--muted:#637068;--line:#d9ded8;--card:#fff;--green:#176b4d;--green-soft:#e5f2eb;--red:#941c20;--red-soft:#f8e8e7}
+    *{box-sizing:border-box}html{background:var(--paper)}body{margin:0;color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI","PingFang SC","Noto Sans SC",sans-serif}
+    main{width:min(780px,100%);margin:auto;padding:calc(32px + env(safe-area-inset-top)) 18px calc(58px + env(safe-area-inset-bottom))}
+    .eyebrow{font-size:12px;font-weight:800;letter-spacing:.16em;color:var(--green)}h1{font-size:clamp(34px,10vw,58px);line-height:1.03;letter-spacing:-.045em;margin:9px 0 14px}
+    .lead{margin:0 0 28px;color:var(--muted);max-width:590px}.grid{display:grid;gap:15px}.card{--accent:var(--green);--soft:var(--green-soft);background:var(--card);border:1px solid var(--line);border-radius:24px;padding:22px;box-shadow:0 14px 42px rgba(26,42,33,.07)}
+    .card.red{--accent:var(--red);--soft:var(--red-soft)}.top{display:flex;align-items:center;gap:15px}.icon{width:58px;height:58px;flex:0 0 58px;display:grid;place-items:center;border-radius:17px;background:var(--accent);color:#fff;font-size:25px;font-weight:850;box-shadow:inset 0 0 0 1px rgba(255,255,255,.16)}
+    h2{font-size:22px;margin:0;letter-spacing:-.02em}.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:5px}.pill{font-size:12px;font-weight:750;color:var(--accent);background:var(--soft);border-radius:999px;padding:3px 8px}
+    .desc{color:var(--muted);margin:16px 0 10px}.notes{margin:0 0 18px;white-space:pre-line}.download{display:block;background:var(--accent);color:#fff;text-decoration:none;text-align:center;padding:14px 18px;border-radius:14px;font-weight:800;letter-spacing:.01em;transition:transform .15s,filter .15s}.download:active{transform:scale(.985)}.download:hover{filter:brightness(.96)}
+    .meta{color:var(--muted);font-size:13px;margin-top:13px;overflow-wrap:anywhere}.loading{opacity:.7}.notice{display:flex;gap:9px;align-items:flex-start;background:#fff9dd;border:1px solid #eadc9c;color:#65591e;border-radius:16px;padding:13px 14px;margin-top:17px;font-size:13px}
+    footer{text-align:center;color:var(--muted);font-size:13px;margin-top:26px}@media(min-width:700px){main{padding-top:52px}.card{padding:26px}}
+  </style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">PERSONAL ANDROID APPS</div>
+  <h1>App 发布中心</h1>
+  <p class="lead">免费下载正式签名版本。这里的下载按钮始终指向最新版，无需 Cloudflare 或应用商店。</p>
+  <section class="grid" id="apps"></section>
+  <div class="notice"><span>ⓘ</span><span>首次安装时，Android 可能要求允许浏览器“安装未知应用”。安装完成后可以关闭该权限。</span></div>
+  <footer>APK 使用固定证书签名，并在发布前校验包名、版本与 SHA-256。</footer>
+</main>
+<script>
+const owner='zjk20020616-ops',repo='personal-app-releases',tag='latest';
+const apps=[
+  {slug:'bookkeeping',name:'自动记账',icon:'账',tone:'',description:'自动识别支付通知，账本数据默认保存在本机。',fallbackVersion:'1.14.0'},
+  {slug:'mercado-perenne',name:'Mercado Perenne',icon:'MP',tone:'red',description:'Mercado Perenne 移动端入口，支持 POS 登录、文件选择和摄像头扫码。',fallbackVersion:'1.0.0'}
+];
+const base=`https://github.com/${owner}/${repo}/releases/download/${tag}`;
+const root=document.getElementById('apps');
+for(const app of apps){
+  const card=document.createElement('article');card.className=`card ${app.tone}`;
+  card.innerHTML=`<div class="top"><div class="icon"></div><div><h2></h2><div class="tags"><span class="pill">Android</span><span class="pill version">v${app.fallbackVersion}</span></div></div></div><p class="desc"></p><p class="notes loading">正在读取版本信息…</p><a class="download" href="${base}/${app.slug}-latest.apk">下载最新版 APK</a><div class="meta"></div>`;
+  card.querySelector('.icon').textContent=app.icon;card.querySelector('h2').textContent=app.name;card.querySelector('.desc').textContent=app.description;root.appendChild(card);
+  fetch(`${base}/${app.slug}-latest.json`,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('metadata unavailable');return r.json()}).then(v=>{
+    card.querySelector('.version').textContent=`v${v.versionName}`;
+    card.querySelector('.notes').classList.remove('loading');card.querySelector('.notes').textContent=v.changelog||'稳定性与体验优化';
+    card.querySelector('.download').href=v.downloadUrl;
+    const date=new Date(v.publishedAt).toLocaleDateString('zh-CN');
+    card.querySelector('.meta').textContent=`${date} · ${(v.fileSize/1048576).toFixed(1)} MB · SHA-256 ${String(v.sha256).slice(0,12)}…`;
+  }).catch(()=>{card.querySelector('.notes').classList.remove('loading');card.querySelector('.notes').textContent='最新版已准备好，可直接下载。';card.querySelector('.meta').textContent='点击按钮开始下载';});
+}
+</script>
+</body>
+</html>
