@@ -29,12 +29,11 @@
   <footer>APK 使用固定证书签名，并在发布前校验包名、版本与 SHA-256。</footer>
 </main>
 <script>
-const owner='zjk20020616-ops',repo='personal-app-releases',tag='latest';
 const apps=[
   {slug:'bookkeeping',name:'自动记账',icon:'账',tone:'',description:'自动识别支付通知，账本数据默认保存在本机。',fallbackVersion:'1.14.0'},
   {slug:'mercado-perenne',name:'Mercado Perenne',icon:'MP',tone:'red',description:'Mercado Perenne 移动端入口，支持 POS 登录、文件选择和摄像头扫码。',fallbackVersion:'1.0.0'}
 ];
-const base=`https://github.com/${owner}/${repo}/releases/download/${tag}`;
+const base='https://zjk20020616-ops.github.io/personal-app-releases/downloads';
 const root=document.getElementById('apps');
 for(const app of apps){
   const card=document.createElement('article');card.className=`card ${app.tone}`;

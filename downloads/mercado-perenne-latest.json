@@ -1,0 +1,11 @@
+{
+  "applicationId": "com.mercadoperenne.app",
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "changelog": "Mercado Perenne Android 首个正式版本；支持 POS 登录、文件选择、摄像头扫码和断网重试。",
+  "mandatory": false,
+  "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-latest.apk",
+  "sha256": "edd6c633661c5a5fb423df1b036fd0c750a093aa51c1e01cbf4deadf0cd11ad5",
+  "fileSize": 716397,
+  "publishedAt": "2026-08-29T04:45:00Z"
+}

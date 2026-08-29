@@ -1,0 +1,11 @@
+{
+  "applicationId": "com.localledger.app",
+  "versionCode": 19,
+  "versionName": "1.14.0",
+  "changelog": "新增 App 发布中心与自动版本检测；完善跨币种汇率成本估算及正式发布流程。",
+  "mandatory": false,
+  "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
+  "sha256": "f1572f20847aec35c18a15bbe77ed2f6077e84f439c890abf06f3152258204c5",
+  "fileSize": 13948909,
+  "publishedAt": "2026-08-29T04:45:00Z"
+}
