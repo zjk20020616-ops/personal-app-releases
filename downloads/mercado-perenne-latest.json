@@ -2,10 +2,11 @@
   "applicationId": "com.mercadoperenne.app",
   "versionCode": 1,
   "versionName": "1.0.0",
-  "changelog": "强化站点隔离与摄像头权限；支持 POS 登录、文件选择、扫码、断网重试和应用内更新提醒。",
-  "mandatory": false,
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-latest.apk",
-  "sha256": "137470d816dfe15c8c685b2541dec2c38b554bc8945aab3712fe3f2134b9fd13",
-  "fileSize": 718766,
-  "publishedAt": "2026-08-30T18:37:26Z"
+  "publishedAt": "2026-08-30T18:46:43.113009Z",
+  "commit": "32178f81ddba28e5bdd74033fbd3dc6ca61133ad",
+  "fileSize": 718768,
+  "sha256": "9fc2bd5dd6f6ab3a8bdb540a1ea493f27ec35f7be3bf1ae1b2b13534b797b186",
+  "mandatory": false,
+  "changelog": "Make Gradle wrapper executable in CI"
 }
