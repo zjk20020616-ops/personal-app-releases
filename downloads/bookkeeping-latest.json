@@ -2,10 +2,11 @@
   "applicationId": "com.localledger.app",
   "versionCode": 20,
   "versionName": "1.15.0",
-  "changelog": "新增票据拍照与图片 OCR 导入；完善跨币种汇率成本估算、数据库迁移和 App 自动更新。",
-  "mandatory": false,
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "sha256": "af08295ab948cc5a69a0f8fac2fbf44a2e51a61a18ec2d67f503d47bb3119956",
-  "fileSize": 58092422,
-  "publishedAt": "2026-08-30T18:44:46Z"
+  "publishedAt": "2026-08-30T19:00:44.766260Z",
+  "commit": "f806168805c2b822b0c1d84dd02257d107c4dd32",
+  "fileSize": 58754557,
+  "sha256": "d66ce032ca1a6ecdb536fa6816e41aca0e08435db207de53db84a6f22493bf05",
+  "mandatory": false,
+  "changelog": "Release v1.15.0 with receipt OCR and free App center"
 }
