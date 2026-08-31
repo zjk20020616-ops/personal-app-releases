@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 20,
-  "versionName": "1.15.0",
+  "versionCode": 23,
+  "versionName": "1.18.0",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-08-30T19:00:44.766260Z",
-  "commit": "f806168805c2b822b0c1d84dd02257d107c4dd32",
-  "fileSize": 58754557,
-  "sha256": "d66ce032ca1a6ecdb536fa6816e41aca0e08435db207de53db84a6f22493bf05",
+  "publishedAt": "2026-08-31T20:21:07.910190Z",
+  "commit": "0def82fdb2b36a2b56dd930bf93633cebf7c8eeb",
+  "fileSize": 58803708,
+  "sha256": "34df439061acb718abb93520f4f96fc3a6ff6b14e11e5c8eafab27841bb0a61d",
   "mandatory": false,
-  "changelog": "Release v1.15.0 with receipt OCR and free App center"
+  "changelog": "发布 ZHU Ledger 1.18.0：跨币种联动、订阅与统一界面"
 }
