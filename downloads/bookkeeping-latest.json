@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 24,
-  "versionName": "1.18.1",
+  "versionCode": 25,
+  "versionName": "1.18.2",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-01T05:31:07.235392Z",
-  "commit": "c00c88dc378565b82337e6f949008c4e0a904522",
-  "fileSize": 58803704,
-  "sha256": "e5d59aad2b5ab0363e73d5e9e201b4957343b4c8c6d9a86024853253f8557394",
+  "publishedAt": "2026-09-01T05:48:44.751708Z",
+  "commit": "7f2d3022788a9861f9df4c75d50e80b01ac16745",
+  "fileSize": 58803715,
+  "sha256": "8d05b5ca52e59fb018b36aa8718d0a8b6a57e58e387a40375faba7c19f9463a1",
   "mandatory": false,
-  "changelog": "发布 ZHU Ledger 1.18.1：统一账本与分类视觉"
+  "changelog": "发布 ZHU Ledger 1.18.2：默认启用自动分类学习"
 }
