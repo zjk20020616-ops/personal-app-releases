@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 30,
-  "versionName": "1.18.7",
+  "versionCode": 31,
+  "versionName": "1.18.8",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-02T04:48:36.723142Z",
-  "commit": "de6146cc562aa7a9bbdb5b6dd185545e7c820dad",
-  "fileSize": 58852925,
-  "sha256": "dfd6e7b33e104d5650a3cce82bed34188291fa3fd9dd04d904890589cf2b0fe6",
+  "publishedAt": "2026-09-02T05:08:18.012503Z",
+  "commit": "20224c771225b82893d97c7761c2ec0c3e51b06d",
+  "fileSize": 58852938,
+  "sha256": "b29f1c03c48b1bd4c59bb97dfb59ea2455d90719bd31f1c267f0820d9199de37",
   "mandatory": false,
-  "changelog": "feat: add separate merchant and device locations"
+  "changelog": "ui: separate expense trends from period stats"
 }
