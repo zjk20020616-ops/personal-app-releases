@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 31,
-  "versionName": "1.18.8",
+  "versionCode": 32,
+  "versionName": "1.19.0",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-02T05:08:18.012503Z",
-  "commit": "20224c771225b82893d97c7761c2ec0c3e51b06d",
-  "fileSize": 58852938,
-  "sha256": "b29f1c03c48b1bd4c59bb97dfb59ea2455d90719bd31f1c267f0820d9199de37",
+  "publishedAt": "2026-09-08T06:04:39.004697Z",
+  "commit": "359e2bd5d818201df7b6088b96bca5b4a28c4b59",
+  "fileSize": 58986283,
+  "sha256": "92eabea2afbb7729e0884720a93c29a78f4fa9d39885a617be8a6f7679a4aaab",
   "mandatory": false,
-  "changelog": "ui: separate expense trends from period stats"
+  "changelog": "发布 v1.19.0：统一界面文案、账单日筛选与趋势对比；地图待配置 Key"
 }
