@@ -1,12 +1,11 @@
 {
   "applicationId": "com.mercadoperenne.app",
-  "versionCode": 1,
-  "versionName": "1.0.0",
+  "versionCode": 5,
+  "versionName": "1.2.1",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-latest.apk",
-  "publishedAt": "2026-08-30T18:46:43.113009Z",
-  "commit": "32178f81ddba28e5bdd74033fbd3dc6ca61133ad",
-  "fileSize": 718768,
-  "sha256": "9fc2bd5dd6f6ab3a8bdb540a1ea493f27ec35f7be3bf1ae1b2b13534b797b186",
+  "publishedAt": "2026-09-09T19:28:12Z",
+  "fileSize": 728980,
+  "sha256": "161765b15aecb9945cc46307500de5129381753b1ede9e7b46c8a0df789515f7",
   "mandatory": false,
-  "changelog": "Make Gradle wrapper executable in CI"
+  "changelog": "同步最新网页手机导航、快捷搜索与简洁设置；改善页面失败重试和返回体验，收款异常提示更清楚。 / Navegación y ajustes web actualizados; recuperación de errores y regreso mejorados."
 }
