@@ -29,13 +29,14 @@
   <p class="lead">免费下载正式签名版本。这里的下载按钮始终指向最新版，无需 Cloudflare 或应用商店。</p>
   <section class="grid" id="apps"></section>
   <div class="notice"><span>ⓘ</span><span>首次安装时，Android 可能要求允许浏览器“安装未知应用”。安装完成后可以关闭该权限。</span></div>
-  <section class="guide"><h2>安装方法</h2><ol><li>点击对应 App 的下载按钮。</li><li>下载完成后打开 APK，并允许本次安装。</li><li>升级时直接安装新版，不要先卸载；两款 App 都使用固定正式签名。</li></ol></section>
+  <section class="guide"><h2>安装方法</h2><ol><li>点击对应 App 的下载按钮。</li><li>下载完成后打开 APK，并允许本次安装。</li><li>同一 App 升级时直接安装新版，不要先卸载。网页版与原生管理端可同时安装，分别更新。</li><li>原生管理端是独立安装，首次使用需要登录；旧 App 中未完成的购物车请先处理。</li></ol></section>
   <footer>APK 使用固定证书签名，并在发布前校验包名、版本与 SHA-256。</footer>
 </main>
 <script>
 const apps=[
   {slug:'bookkeeping',name:'自动记账',icon:'账',tone:'',description:'自动识别支付通知，支持票据 OCR 导入，账本数据默认保存在本机。',fallbackVersion:'1.15.0'},
-  {slug:'mercado-perenne',name:'Mercado Perenne',icon:'MP',tone:'red',description:'Mercado Perenne 移动端入口，支持 POS 登录、文件选择和摄像头扫码。',fallbackVersion:'1.0.0'}
+  {slug:'mercado-perenne',name:'Mercado Perenne 网页版',icon:'MP',tone:'red',description:'与网页版同步的完整 POS，支持手机底部导航、快捷搜索、文件选择与相机扫码。',fallbackVersion:'1.2.1'},
+  {slug:'mercado-perenne-manager',name:'Mercado Perenne 管理端',icon:'管',tone:'red',description:'老板日常管理：经营概况、订单、销售分析和库存。原生手机布局，保留联网收银、挂单与取单，电脑故障时可用手机接手。',fallbackVersion:'1.2.0'}
 ];
 const base='https://zjk20020616-ops.github.io/personal-app-releases/downloads';
 const root=document.getElementById('apps');

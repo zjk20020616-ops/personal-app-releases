@@ -1,0 +1,11 @@
+{
+  "applicationId": "com.mercadoperenne.manager",
+  "versionCode": 4,
+  "versionName": "1.2.0",
+  "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-manager-latest.apk",
+  "publishedAt": "2026-09-13T16:10:03Z",
+  "fileSize": 73062626,
+  "sha256": "c05d6e9ac745ebe1464e1992453190f77703fb54c7f0fa5ee571f2e8041c1bbf",
+  "mandatory": false,
+  "changelog": "原生手机老板管理端：概况、订单、分析、库存、管理五个底部入口；首页直接进入备用收银；应收金额固定底部；经营数据刷新及异常提示；快捷导航与设置优化。联网使用，与网页入口独立安装更新。"
+}
