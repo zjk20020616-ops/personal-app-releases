@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 34,
-  "versionName": "1.19.2",
+  "versionCode": 35,
+  "versionName": "1.20.0",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-13T16:18:59.598687Z",
-  "commit": "4b79f788c5cb63d1e558451048f94f1c3c3f0583",
-  "fileSize": 59035427,
-  "sha256": "ae895b0f0c9fe9ed23d24d13b59258b8377ad2de18e47c0499287f65c3b88bb2",
+  "publishedAt": "2026-09-14T05:47:29.830972Z",
+  "commit": "56360c8b307381f46173b87e340f68f998fd3df5",
+  "fileSize": 59051823,
+  "sha256": "8270a3caa8aab441063e1d558c401fbe030499088f41867d69aed79b85fbc697",
   "mandatory": false,
-  "changelog": "发布 v1.19.2：独立账本保存保护、后台搜索与小票高清查看"
+  "changelog": "发布 v1.20.0：首页精简、账本独立导航与账单摘要"
 }
