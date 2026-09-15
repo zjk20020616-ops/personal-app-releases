@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 35,
-  "versionName": "1.20.0",
+  "versionCode": 36,
+  "versionName": "1.21.0",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-14T05:47:29.830972Z",
-  "commit": "56360c8b307381f46173b87e340f68f998fd3df5",
-  "fileSize": 59051823,
-  "sha256": "8270a3caa8aab441063e1d558c401fbe030499088f41867d69aed79b85fbc697",
+  "publishedAt": "2026-09-15T06:01:48.556662Z",
+  "commit": "f24ce2aff417da34cfb7edd004392c53d4f48766",
+  "fileSize": 59068195,
+  "sha256": "9612fa52068a75411ead09a1ccdec6d6feb8ec4b1eb8092a473e8e081ab5be03",
   "mandatory": false,
-  "changelog": "发布 v1.20.0：首页精简、账本独立导航与账单摘要"
+  "changelog": "发布 v1.21.0：兼容旧商家学习，修复自动入账与商家排行"
 }
