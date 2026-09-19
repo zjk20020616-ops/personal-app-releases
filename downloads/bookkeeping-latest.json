@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 38,
-  "versionName": "1.23.0",
+  "versionCode": 39,
+  "versionName": "1.24.0",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-17T05:25:00.131639Z",
-  "commit": "bdcc075b357c22f6e11e6e0212bab2da4af61fd9",
-  "fileSize": 59422999,
-  "sha256": "416169cea794f011c412e1b02dd986127965179c210055d6db3af5c8044e31a5",
+  "publishedAt": "2026-09-19T05:27:39.685707Z",
+  "commit": "4b50d53b090d69a1140cb6c3245495f3d3c2b234",
+  "fileSize": 59439392,
+  "sha256": "42ce7c591e332262c018211ed7341954bd99a7db0768aef344a5081e4b8f68cc",
   "mandatory": false,
-  "changelog": "发布 v1.23.0：银行参考汇率、扫码换机与小票加密备份"
+  "changelog": "Unify independent ledger UI and release v1.24.0"
 }
