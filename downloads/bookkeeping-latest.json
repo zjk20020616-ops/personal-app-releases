@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 39,
-  "versionName": "1.24.0",
+  "versionCode": 40,
+  "versionName": "1.25.0",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-19T05:27:39.685707Z",
-  "commit": "4b50d53b090d69a1140cb6c3245495f3d3c2b234",
-  "fileSize": 59439392,
-  "sha256": "42ce7c591e332262c018211ed7341954bd99a7db0768aef344a5081e4b8f68cc",
+  "publishedAt": "2026-09-20T06:27:54.384753Z",
+  "commit": "c684faa6173c0cb254d2d37f273482d880334082",
+  "fileSize": 59439382,
+  "sha256": "336acf32fc2f503536f40ead321d29668f9f0db16e219725e2adf95459948090",
   "mandatory": false,
-  "changelog": "Unify independent ledger UI and release v1.24.0"
+  "changelog": "Show dual-currency orders and allow real order price entry in v1.25.0"
 }
