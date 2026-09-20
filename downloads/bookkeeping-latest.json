@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 40,
-  "versionName": "1.25.0",
+  "versionCode": 41,
+  "versionName": "1.26.0",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-20T06:27:54.384753Z",
-  "commit": "c684faa6173c0cb254d2d37f273482d880334082",
-  "fileSize": 59439382,
-  "sha256": "336acf32fc2f503536f40ead321d29668f9f0db16e219725e2adf95459948090",
+  "publishedAt": "2026-09-20T18:01:51.653738Z",
+  "commit": "b95c68cf0b1421eabf0d6ab58258e5991ae6e389",
+  "fileSize": 59442752,
+  "sha256": "ead2aa030cf5976b27ee69e7d5783b2c9a3259282eb7ecce9b53d426bcafb3b6",
   "mandatory": false,
-  "changelog": "Show dual-currency orders and allow real order price entry in v1.25.0"
+  "changelog": "ZHU 1.26.0：统一黑白金界面与新图标，完善去重、汇率和封版验收"
 }
