@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 41,
-  "versionName": "1.26.0",
+  "versionCode": 42,
+  "versionName": "1.26.1",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-20T18:01:51.653738Z",
-  "commit": "b95c68cf0b1421eabf0d6ab58258e5991ae6e389",
-  "fileSize": 59442752,
-  "sha256": "ead2aa030cf5976b27ee69e7d5783b2c9a3259282eb7ecce9b53d426bcafb3b6",
+  "publishedAt": "2026-09-21T04:28:39.717384Z",
+  "commit": "7db761dc015fd090e96480cc22f14865e31f367f",
+  "fileSize": 59459161,
+  "sha256": "858308cff6677b8afecdbc61d0be48b9f48b96a6c66c07cbb5957a39118be431",
   "mandatory": false,
-  "changelog": "ZHU 1.26.0：统一黑白金界面与新图标，完善去重、汇率和封版验收"
+  "changelog": "ZHU 1.26.1：优化首页密度与账单排版，统一安全区和视觉层级"
 }
