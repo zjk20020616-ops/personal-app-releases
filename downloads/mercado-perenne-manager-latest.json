@@ -1,11 +1,11 @@
 {
   "applicationId": "com.mercadoperenne.manager",
-  "versionCode": 5,
-  "versionName": "1.3.0",
+  "versionCode": 6,
+  "versionName": "1.3.1",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-manager-latest.apk",
-  "publishedAt": "2026-09-20T05:48:43Z",
-  "fileSize": 73067878,
-  "sha256": "22bab0777f0d1ddde7cfd82bd24ed724cbf1171b9457b23dc7cfef1ea66e07a7",
+  "publishedAt": "2026-09-21T16:25:20Z",
+  "fileSize": 73075138,
+  "sha256": "df09fb15ed1000d27b563151dbfe1252222092c363d46bc08ec1b694a48a5fd7",
   "mandatory": false,
-  "changelog": "老板经营看板升级：销售额、商品毛利、毛利率、订单、客单价、收款构成与趋势，支持今天/近7天/本月。新增经营测算，估算结余和保本销售额，不写入真实账本。保留手机联网备用收银；管理页可切换语言。"
+  "changelog": "收银新增摄像头扫码加购、补光、相机权限引导、单次识别防重复加购及后台暂停；保留老板看板、经营测算和手动条码。摄像头尚待实机验收。"
 }
