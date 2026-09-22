@@ -1,11 +1,11 @@
 {
   "applicationId": "com.mercadoperenne.manager",
-  "versionCode": 6,
-  "versionName": "1.3.1",
+  "versionCode": 7,
+  "versionName": "1.4.0",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-manager-latest.apk",
-  "publishedAt": "2026-09-21T16:25:20Z",
-  "fileSize": 73075138,
-  "sha256": "df09fb15ed1000d27b563151dbfe1252222092c363d46bc08ec1b694a48a5fd7",
+  "publishedAt": "2026-09-22T15:54:17Z",
+  "fileSize": 73095742,
+  "sha256": "51050794b14411c41d31a3ee108ce9867669243d0b5e82f63b2055ddf75a3d7c",
   "mandatory": false,
-  "changelog": "收银新增摄像头扫码加购、补光、相机权限引导、单次识别防重复加购及后台暂停；保留老板看板、经营测算和手动条码。摄像头尚待实机验收。"
+  "changelog": "新增原生审批中心：待办筛选、申请内容、批准/拒绝确认、异常数据校验。新增操作日志：关键词、日期、类别筛选、翻页及详情。保留老板看板、经营测算和摄像头扫码收银。"
 }
