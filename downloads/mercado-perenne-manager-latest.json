@@ -1,11 +1,11 @@
 {
   "applicationId": "com.mercadoperenne.manager",
-  "versionCode": 10,
-  "versionName": "1.6.1",
+  "versionCode": 11,
+  "versionName": "1.6.2",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-manager-latest.apk",
-  "publishedAt": "2026-09-23T05:59:56Z",
-  "fileSize": 73102714,
-  "sha256": "6240d1f167368dcff959c97a582294686be3dcfb82e5cd22ed18cdf11680dd24",
+  "publishedAt": "2026-09-23T06:11:30Z",
+  "fileSize": 73106674,
+  "sha256": "f1b9723c07d24a1a09400440379b81514cd3be3930ce896c7daab985eac61719",
   "mandatory": false,
-  "changelog": "修复库存筛选字段对应错误，分类、库存、状态、排序及选中状态正确生效；筛选改为点击应用后提交，关闭保留原条件。筛选内容适配小屏滚动，操作按钮固定。优化日期弹窗、长确认消息、底部导航安全区和深色状态栏。"
+  "changelog": "可靠性更新：网络超时覆盖完整响应读取，避免弱网下无限等待；挂单恢复和重启保持相同开单重试标识；购物车恢复失败可重试且不覆盖异常草稿；服务器已确认成交时，本机清理失败独立提示并允许重试清理，避免误报开单失败。"
 }
