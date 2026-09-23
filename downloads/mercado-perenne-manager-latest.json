@@ -1,11 +1,11 @@
 {
   "applicationId": "com.mercadoperenne.manager",
-  "versionCode": 8,
-  "versionName": "1.5.0",
+  "versionCode": 9,
+  "versionName": "1.6.0",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-manager-latest.apk",
-  "publishedAt": "2026-09-22T16:03:48Z",
-  "fileSize": 73098754,
-  "sha256": "20b0556e39f71beaea349571bd137ea797d5250ba6b3f0f4330a129e305a25b8",
+  "publishedAt": "2026-09-23T05:49:00Z",
+  "fileSize": 73102414,
+  "sha256": "4d776a8ea4865f13f4e91cf77ea63a046b4301725bea1854c7c91a6596a5cf26",
   "mandatory": false,
-  "changelog": "收银体验升级：连续扫描不同商品、同码防重复和振动反馈；选商品支持连续加购与已选数量；底部直接去收款并自动填入应收；金额支持小数逗号，找零同步校验；放大数量按钮并防止误开改价。"
+  "changelog": "原生界面采用网页商务风格：灰白底、炭黑按钮与金色细节；简化收银布局。性能优化：合并同时发生的相同读取请求，减少页面首次重复刷新，审批及选品列表分批渲染，优化购物车数量查询。保留实时刷新、连续扫码和现金找零。"
 }
