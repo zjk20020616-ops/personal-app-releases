@@ -1,11 +1,11 @@
 {
   "applicationId": "com.mercadoperenne.manager",
-  "versionCode": 9,
-  "versionName": "1.6.0",
+  "versionCode": 10,
+  "versionName": "1.6.1",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-manager-latest.apk",
-  "publishedAt": "2026-09-23T05:49:00Z",
-  "fileSize": 73102414,
-  "sha256": "4d776a8ea4865f13f4e91cf77ea63a046b4301725bea1854c7c91a6596a5cf26",
+  "publishedAt": "2026-09-23T05:59:56Z",
+  "fileSize": 73102714,
+  "sha256": "6240d1f167368dcff959c97a582294686be3dcfb82e5cd22ed18cdf11680dd24",
   "mandatory": false,
-  "changelog": "原生界面采用网页商务风格：灰白底、炭黑按钮与金色细节；简化收银布局。性能优化：合并同时发生的相同读取请求，减少页面首次重复刷新，审批及选品列表分批渲染，优化购物车数量查询。保留实时刷新、连续扫码和现金找零。"
+  "changelog": "修复库存筛选字段对应错误，分类、库存、状态、排序及选中状态正确生效；筛选改为点击应用后提交，关闭保留原条件。筛选内容适配小屏滚动，操作按钮固定。优化日期弹窗、长确认消息、底部导航安全区和深色状态栏。"
 }
