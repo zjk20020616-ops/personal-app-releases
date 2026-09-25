@@ -1,11 +1,11 @@
 {
   "applicationId": "com.mercadoperenne.manager",
-  "versionCode": 11,
-  "versionName": "1.6.2",
+  "versionCode": 12,
+  "versionName": "1.7.0",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-manager-latest.apk",
-  "publishedAt": "2026-09-23T06:11:30Z",
-  "fileSize": 73106674,
-  "sha256": "f1b9723c07d24a1a09400440379b81514cd3be3930ce896c7daab985eac61719",
+  "publishedAt": "2026-09-25T16:12:27Z",
+  "fileSize": 73122254,
+  "sha256": "ed33bc64374114e40f4437418934e0b2b1fbb93ef4a85d70ea59b91e9a74fd5f",
   "mandatory": false,
-  "changelog": "可靠性更新：网络超时覆盖完整响应读取，避免弱网下无限等待；挂单恢复和重启保持相同开单重试标识；购物车恢复失败可重试且不覆盖异常草稿；服务器已确认成交时，本机清理失败独立提示并允许重试清理，避免误报开单失败。"
+  "changelog": "新增待核实订单：只读查询原单结果，已成交可安全清理本机记录，未确认可恢复原单重试。老板首页新增待审批和负库存提醒，失败明确提示重试。支持选择收银台，保留弱网超时、购物车恢复和防重复记账保护。本版不包含交班功能，收银无需开班。"
 }
