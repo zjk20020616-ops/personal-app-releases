@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 44,
-  "versionName": "1.27.1",
+  "versionCode": 45,
+  "versionName": "1.27.2",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-25T06:24:07.769867Z",
-  "commit": "f159f8dce769048d24ea0cf2ec9389b3d6587a9c",
-  "fileSize": 59475521,
-  "sha256": "b95c9d497dc3f512f14b94654767813bfdc963f75ffe130afa6b5de137da13ab",
+  "publishedAt": "2026-09-27T05:46:01.583914Z",
+  "commit": "71b4a7b99a39433a6ed5d55a3c511a6287bcb2d0",
+  "fileSize": 59475527,
+  "sha256": "928cc80f72a369b98e29281c436192bd2d57d7559452b01d0f031b9bd1c6ef95",
   "mandatory": false,
-  "changelog": "fix: preserve merchants and learn wallet bank pairing across shops"
+  "changelog": "fix: harden currency parsing reconciliation and payment evidence"
 }
