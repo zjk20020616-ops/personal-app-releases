@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 45,
-  "versionName": "1.27.2",
+  "versionCode": 46,
+  "versionName": "1.27.3",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-27T05:46:01.583914Z",
-  "commit": "71b4a7b99a39433a6ed5d55a3c511a6287bcb2d0",
-  "fileSize": 59475527,
-  "sha256": "928cc80f72a369b98e29281c436192bd2d57d7559452b01d0f031b9bd1c6ef95",
+  "publishedAt": "2026-09-28T06:26:07.030136Z",
+  "commit": "24fac778714a545ab019be56beca30bb836b0d80",
+  "fileSize": 59491911,
+  "sha256": "0a01d042b48530a7acbf46d6bfef0ff592bda46ee49b6c0a5b8d807f8b9b7cb1",
   "mandatory": false,
-  "changelog": "fix: harden currency parsing reconciliation and payment evidence"
+  "changelog": "完善自动汇率、地区参考报价与换算交互"
 }
