@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 46,
-  "versionName": "1.27.3",
+  "versionCode": 47,
+  "versionName": "1.27.4",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-28T06:26:07.030136Z",
-  "commit": "24fac778714a545ab019be56beca30bb836b0d80",
-  "fileSize": 59491911,
-  "sha256": "0a01d042b48530a7acbf46d6bfef0ff592bda46ee49b6c0a5b8d807f8b9b7cb1",
+  "publishedAt": "2026-09-28T20:31:05.224120Z",
+  "commit": "17a4adb68ca5179286ebd6e3da5ffb7eb794e525",
+  "fileSize": 59508286,
+  "sha256": "73cdfbad5cbf042371ad166e36c65e5185aa5a7502930bdc8467a99cd8fdb7c6",
   "mandatory": false,
-  "changelog": "完善自动汇率、地区参考报价与换算交互"
+  "changelog": "优化暖白黑金主题与分类界面，新增游戏等54个可搜索图标"
 }
