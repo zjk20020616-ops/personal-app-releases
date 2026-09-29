@@ -1,11 +1,11 @@
 {
   "applicationId": "com.mercadoperenne.manager",
-  "versionCode": 15,
-  "versionName": "1.8.1",
+  "versionCode": 16,
+  "versionName": "1.8.2",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-manager-latest.apk",
-  "publishedAt": "2026-09-29T16:30:44Z",
-  "fileSize": 73142142,
-  "sha256": "05291f4095df1ea2c7f8925dd0e6f4ecdb0f083e73d94c30726c95c9bcec0c1f",
+  "publishedAt": "2026-09-29T19:49:08Z",
+  "fileSize": 73143174,
+  "sha256": "ca537972f0ba72e148bf7e13c758ef56479826f2468b2066a373052c211e4ca0",
   "mandatory": false,
-  "changelog": "库存管理优化：直接输入盘点总数并显示调整差额；保存结果不确定时先读取最新库存再核对；增加筛选状态提示与清除筛选；修正低库存汇总；库存弹窗支持滚动。"
+  "changelog": "修复库存搜索框显示：独立整行搜索、输入文字对齐、筛选区重新排版。美化库存汇总及商品卡片，价格与库存分区、调整库存按钮加大；补齐西语库存筛选文字。"
 }
