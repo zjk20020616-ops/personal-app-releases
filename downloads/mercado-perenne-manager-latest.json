@@ -1,11 +1,11 @@
 {
   "applicationId": "com.mercadoperenne.manager",
-  "versionCode": 13,
-  "versionName": "1.7.1",
+  "versionCode": 14,
+  "versionName": "1.8.0",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-manager-latest.apk",
-  "publishedAt": "2026-09-26T19:23:49Z",
-  "fileSize": 73123402,
-  "sha256": "ade0b48d912ca54bc05a00cf98a8af90935e3e5f6bf494806b647076c01dcb7a",
+  "publishedAt": "2026-09-29T06:11:27Z",
+  "fileSize": 73140698,
+  "sha256": "ae44969aa52cca9a8d0e1963aa42fe02a41a516b9964ddf44403ff926c623c8c",
   "mandatory": false,
-  "changelog": "库存预警直接进入低库存或负库存筛选，并清除旧搜索条件；商品列表支持返回刷新、手动刷新和下拉刷新，分页失败可重试；修复商品分类栏被拉高的问题；待核实订单显示服务器确认金额，经营提醒显示实际同步时间。不包含交班功能。"
+  "changelog": "老板监控升级：收入和异常提醒前台每30秒更新；新增员工管理，可搜索员工、编辑姓名和折扣上限、启停账号。库存调整与商品编辑增加多设备冲突保护；商品流水按商品查询，审批支持分页；编辑返回刷新。备用收银保留挂单防重复和批量取单，不含交班功能。"
 }
