@@ -1,12 +1,12 @@
 {
   "applicationId": "com.localledger.app",
-  "versionCode": 47,
-  "versionName": "1.27.4",
+  "versionCode": 48,
+  "versionName": "1.27.5",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/bookkeeping-latest.apk",
-  "publishedAt": "2026-09-28T20:31:05.224120Z",
-  "commit": "17a4adb68ca5179286ebd6e3da5ffb7eb794e525",
-  "fileSize": 59508286,
-  "sha256": "73cdfbad5cbf042371ad166e36c65e5185aa5a7502930bdc8467a99cd8fdb7c6",
+  "publishedAt": "2026-09-29T05:53:24.196024Z",
+  "commit": "8a496a8e8c417b11d58131ae282800485e121b01",
+  "fileSize": 59508310,
+  "sha256": "f0b0bfae43b434554f457b5a0f840dd398d550f59406ae5522248e01de8c109a",
   "mandatory": false,
-  "changelog": "优化暖白黑金主题与分类界面，新增游戏等54个可搜索图标"
+  "changelog": "自动关联微信原价与同卡银行结算并发布 1.27.5"
 }
