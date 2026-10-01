@@ -1,11 +1,11 @@
 {
   "applicationId": "com.mercadoperenne.manager",
-  "versionCode": 16,
-  "versionName": "1.8.2",
+  "versionCode": 17,
+  "versionName": "1.9.0",
   "downloadUrl": "https://zjk20020616-ops.github.io/personal-app-releases/downloads/mercado-perenne-manager-latest.apk",
-  "publishedAt": "2026-09-29T19:49:08Z",
-  "fileSize": 73143174,
-  "sha256": "ca537972f0ba72e148bf7e13c758ef56479826f2468b2066a373052c211e4ca0",
+  "publishedAt": "2026-10-01T05:48:25Z",
+  "fileSize": 73159710,
+  "sha256": "89658918013f6a4cc74451ba2300052cde337da879898fa2b4c5d3cc636bbd38",
   "mandatory": false,
-  "changelog": "修复库存搜索框显示：独立整行搜索、输入文字对齐、筛选区重新排版。美化库存汇总及商品卡片，价格与库存分区、调整库存按钮加大；补齐西语库存筛选文字。"
+  "changelog": "可靠性升级：严格金额输入与西语小数支持；历史订单服务端分页；商品资料与库存分开保存，未保存提醒和失败后核对；看板弱网保留上次数据；员工修改冲突保护；完整库存流水按日期、类型和操作人查询。"
 }
